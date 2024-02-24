@@ -12,9 +12,17 @@
 ### Проект реализован с использованием
 Python Pytest PyCharm Selenoid Selene Jenkins Allure Report Telegram 
 
-<img src="/design/python-original.svg" alt="Image 1" width="45" height="45"><img src="/design/pytest-original.svg" alt="Image 2" width="45" height="45"><img src="/design/PyCharm_Icon.svg" alt="Image 3" width="45" height="45"><img src="/design/selenoid.png" alt="Image 4" width="45" height="45"><img src="/design/jenkins-original.svg" alt="Image 5" width="45" height="45">
-<img src="/design/allure.png" alt="Image 6" width="45" height="45"><img src="/design/telegram.svg" alt="Image 7" width="45" height="45">
-
+<p  align="center">
+  <code><img width="5%" title="Python" src="design_resources/logo/python.png"></code>
+  <code><img width="5%" title="Pytest" src="design_resources/logo/pytest.png"></code>
+  <code><img width="5%" title="Selene" src="design_resources/logo/selene.png"></code>
+  <code><img width="5%" title="Jenkins" src="design_resources/logo/jenkins.png"></code>
+  <code><img width="5%" title="Selenoid" src="design_resources/logo/selenoid.png"></code>
+  <code><img width="5%" title="Allure Report" src="design_resources/logo/allure_report.png"></code>
+  <code><img width="5%" title="Allure TestOps" src="design_resources/logo/allure_testops.png"></code>
+  <code><img width="5%" title="Jira" src="design_resources/logo/jira.png"></code>
+  <code><img width="5%" title="Telegram" src="design_resources/logo/tg.png"></code>
+</p>
 # Запуск автотестов выполняется на сервере Jenkins
 > <a target="_blank" href="https://jenkins.autotests.cloud/job/project_bashurova_python">Ссылка на проект в Jenkins</a>
 
