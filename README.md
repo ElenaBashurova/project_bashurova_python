@@ -16,10 +16,10 @@ Python Pytest PyCharm Selenoid Selene Jenkins Allure Report Telegram
 <img src="/design/allure.png" alt="Image 6" width="45" height="45"><img src="/design/telegram.svg" alt="Image 7" width="45" height="45">
 
 # Запуск автотестов выполняется на сервере Jenkins
-> <a target="_blank" href="">Ссылка на проект в Jenkins</a>
+> <a target="_blank" href="https://github.com/ElenaBashurova/project_bashurova_python">Ссылка на проект в Jenkins</a>
 
 ### Для запуска автотестов в Jenkins
-#### 1. Открыть <a target="_blank" href="">проект</a>
+#### 1. Открыть <a target="_blank" href="https://github.com/ElenaBashurova/project_bashurova_python">проект</a>
 
 ![This is an image](/design_resources/screens/Jenkins_main.png)
 
