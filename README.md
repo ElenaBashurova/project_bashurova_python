@@ -21,14 +21,14 @@ Python Pytest PyCharm Selenoid Selene Jenkins Allure Report Telegram
 ### Для запуска автотестов в Jenkins
 #### 1. Открыть <a target="_blank" href="https://jenkins.autotests.cloud/job/project_bashurova_python">проект</a>
 
-![This is an image](/design_resources/screens/Jenkins_main.png)
+![This is an image](/design_resources/screens/)
 
 #### 2. Выбрать пункт **Собрать с параметрами**
 #### 3. В случае необходимости изменить параметры, выбрав значения из выпадающих списков
 #### 4. Нажать **Собрать**
 #### 5. Результат запуска сборки можно посмотреть в отчёте Allure
 
-![This is an image](/design_resources/screens/allure_report.png)
+![This is an image](/design_resources/screens/)
 
 ### Локальный запуск автотестов
 1. Клонируйте репозиторий на свой локальный компьютер при помощи git clone
@@ -56,7 +56,7 @@ allure serve allure-results
 ``` 
 
 ### Пример видеозаписи прохождения теста
-![This is an image](/design_resources/screens/test_gif.gif)
+![This is an image](/design_resources/screens/)
 
 ### Настроено автоматическое оповещение о результатах сборки Jenkins в Telegram-бот
-![This is an image](/design_resources/screens/bot.png)
+![This is an image](/design_resources/screens/)
