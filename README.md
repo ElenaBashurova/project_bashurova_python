@@ -49,26 +49,27 @@ pip install -r requirements.txt
 pytest tests/
 ```
 
-> Получение Allure отчета
-```bash
-allure serve allure-results/
-```
-
 ----
 ### <img width="5%" title="Jenkins" src="design_resources/logo/jenkins.png"> Запуск проекта в Jenkins
 
 ### [Jenkins](https://jenkins.autotests.cloud/job/project_bashurova_python)
 
 #### При нажатии на "Build with Parameters" начнется сборка тестов и их прохождение, через виртуальную среду в Selenoid
-![This is an image](design_resources/images/jenkins.png)
+![This is an image](design_resources/logo/jenkins.png)
 
 Получение отчёта allure:
 ```bash
 allure serve allure-results
 ``` 
+<!-- Allure report -->
+----
+### <img width="5%" title="Allure Report" src="resources/logo/allure_report.png"> Allure report
+### [Report](https://jenkins.autotests.cloud/job/project_bashurova_python/2/allure/)
+#### Результаты тестов в Allure отчете
+![This is an image](/design_resources/screens/Allure_results.jpg)  
 
 ### Пример видеозаписи прохождения теста
-![This is an image](/design_resources/screens/)
+![This is an image](/design_resources/screens/Allure_results.jpg)
 
 <!-- Telegram -->
 ----
