@@ -55,12 +55,12 @@ allure serve allure-results/
 ```
 
 ----
-### <img width="5%" title="Jenkins" src="resources/logo/jenkins.png"> Запуск проекта в Jenkins
+### <img width="5%" title="Jenkins" src="design_resources/logo/jenkins.png"> Запуск проекта в Jenkins
 
-### [Jenkins](https://jenkins.autotests.cloud/job/python_project_okko.tv/)
+### [Jenkins](https://jenkins.autotests.cloud/job/project_bashurova_python)
 
 #### При нажатии на "Build with Parameters" начнется сборка тестов и их прохождение, через виртуальную среду в Selenoid
-![This is an image](resources/images/jenkins.png)
+![This is an image](design_resources/images/jenkins.png)
 
 Получение отчёта allure:
 ```bash
