@@ -10,7 +10,7 @@
 ### Структура проекта
 
 ### Проект реализован с использованием
-Python Pytest PyCharm Selenoid Selene Jenkins Allure Report Telegram 
+Python Pytest Selene Jenkins Selenoid Jenkins Allure reports Allure TestOps Jira Telegram 
 
 <p  align="center">
   <code><img width="5%" title="Python" src="design_resources/logo/python.png"></code>
@@ -38,25 +38,29 @@ Python Pytest PyCharm Selenoid Selene Jenkins Allure Report Telegram
 
 ![This is an image](/design_resources/screens/)
 
-### Локальный запуск автотестов
-1. Клонируйте репозиторий на свой локальный компьютер при помощи git clone
-2. Создайте и активируйте виртуальное окружение
-  ```bash
-  python -m venv .venv
-  source .venv/bin/activate
-  ```
-3. Установите зависимости с помощью pip
-  ```bash
-  pip install -r requirements.txt
-  ```
-4. Для запусков тестов локально используйте команду 
-  ```bash
-  pytest -sv
-  ```
-5. Для запусков тестов удаленно используйте команду 
-  ```bash
-  environment='remote' pytest -sv
-  ```
+----
+### Локальный запуск
+
+> Для локального запуска необходимо выполнить команду в СLI:
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+pytest tests/
+```
+
+> Получение Allure отчета
+```bash
+allure serve allure-results/
+```
+
+----
+### <img width="5%" title="Jenkins" src="resources/logo/jenkins.png"> Запуск проекта в Jenkins
+
+### [Jenkins](https://jenkins.autotests.cloud/job/python_project_okko.tv/)
+
+#### При нажатии на "Build with Parameters" начнется сборка тестов и их прохождение, через виртуальную среду в Selenoid
+![This is an image](resources/images/jenkins.png)
 
 Получение отчёта allure:
 ```bash
@@ -66,5 +70,10 @@ allure serve allure-results
 ### Пример видеозаписи прохождения теста
 ![This is an image](/design_resources/screens/)
 
-### Настроено автоматическое оповещение о результатах сборки Jenkins в Telegram-бот
-![This is an image](/design_resources/screens/)
+<!-- Telegram -->
+----
+### <img width="5%" title="Telegram" src="resources/logo/tg.png"> Telegram
+
+#### Уведовление в Telegram bot после прохождения тестов
+
+![This is an image](resources/images/tg_okkotv.png)
