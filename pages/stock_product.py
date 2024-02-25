@@ -9,7 +9,7 @@ class ProductStock(Helpers):
             browser.open('/promo/sale/index.php?SORT=SORT&COUNT=60')
             self.click_element('#fancybox-close')
             self.click_element('.js-cityDetector')
-            self.click_element('[data-region="Санкт-Петербург и область"]')
+            self.click_element('#fancybox-close')
         return self
 
     def select_stock_products(self, product):
