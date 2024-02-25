@@ -32,7 +32,7 @@ def browser_configs():
         options=options,
     )
 
-    # browser.config.driver = driver
+    browser.config.driver = driver
     browser.config.base_url = 'https://www.officemag.ru'
     browser.config.timeout = 10
     browser.config.window_width = 1920
