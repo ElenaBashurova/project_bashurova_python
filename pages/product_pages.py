@@ -11,7 +11,7 @@ class ProductPage(Helpers):
             browser.open('/')
             self.click_element('#fancybox-close')
             self.click_element('.js-cityDetector')
-            self.click_element('#fancybox-close')
+            self.click_element('[data-region="Санкт-Петербург и область"]')
         return self
 
     def page_name_product(self, name):
