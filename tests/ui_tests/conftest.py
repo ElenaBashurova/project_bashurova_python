@@ -13,7 +13,7 @@ def load_env():
 
 
 @pytest.fixture(scope='function', autouse=True)
-def setup_browser():
+def browser_configs():
     options = Options()
 
     options.add_argument('--no-sandbox')
