@@ -5,7 +5,7 @@ from utils import path
 from dotenv import load_dotenv
 
 
-def credentials():
+def setting():
     load_dotenv()
     login: str = os.getenv("LOGIN")
     password: str = os.getenv("PASSWORD")

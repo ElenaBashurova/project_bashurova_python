@@ -1,7 +1,7 @@
 import pytest
 from selene import browser
 from selenium import webdriver
-from configs import config, credentials
+from configs import config, setting
 from utils import attach
 
 
@@ -28,7 +28,7 @@ def browser_configs():
         driver_options.capabilities.update(selenoid_capabilities)
 
         driver = webdriver.Remote(
-            command_executor=credentials(),
+            command_executor=setting(),
             options=driver_options
         )
 
