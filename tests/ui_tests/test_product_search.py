@@ -31,7 +31,6 @@ def test_search_by_foreign_name(browser_configs):
     product_name.foreign_name_product('Кофе в зернах JACOBS «Crema» 1 кг')
 
 
-@pytest.mark.xfail(reason='Этот тест не стабилен')
 @allure.title('Поиск товара "Чай"')
 def test_search_by_foreign_keyboard_layout(browser_configs):
     search_name.open_page()
