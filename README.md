@@ -73,8 +73,8 @@ allure serve allure-results
 
 <!-- Telegram -->
 ----
-### <img width="5%" title="Telegram" src="resources/logo/tg.png"> Telegram
+### <img width="5%" title="Telegram" src="design_resources/logo/tg.png"> Telegram
 
 #### Уведовление в Telegram bot после прохождения тестов
 
-![This is an image](resources/images/tg_okkotv.png)
+![This is an image](design_resources/images/)
