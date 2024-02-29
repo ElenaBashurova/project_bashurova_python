@@ -9,7 +9,8 @@ def setting():
     load_dotenv()
     login: str = os.getenv("LOGIN")
     password: str = os.getenv("PASSWORD")
-    remote_url = f'https://{login}:{password}@selenoid.autotests.cloud/wd/hub'
+    url: str = os.getenv("URL")
+    remote_url = f'{url}'
     return remote_url
 
 
